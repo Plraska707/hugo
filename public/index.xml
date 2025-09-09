@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wiki di Attilio :: Wiki Attilio</title>
+    <link>http://localhost:1313/index.html</link>
+    <description>In questa wiki ci sono le istruzioni per accedere ai vari servizi e ricreare le funzioni che ho sul pc.&#xA;Accessi&#xA;Impostazioni PC&#xA;Istruzioni ReVanced</description>
+    <generator>Hugo</generator>
+    <language>it</language>
+    <lastBuildDate>Sat, 06 Sep 2025 15:35:17 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Accessi</title>
+      <link>http://localhost:1313/accessi/index.html</link>
+      <pubDate>Sat, 06 Sep 2025 10:22:34 +0200</pubDate>
+      <guid>http://localhost:1313/accessi/index.html</guid>
+      <description>Sambashare&#xA;Iliadbox&#xA;Jellyfin&#xA;FTP&#xA;Raspberry Pi&#xA;PostgreSQL su Docker</description>
+    </item>
+    <item>
+      <title>Impostazioni PC</title>
+      <link>http://localhost:1313/impostazioni_pc/index.html</link>
+      <pubDate>Sat, 06 Sep 2025 15:35:17 +0200</pubDate>
+      <guid>http://localhost:1313/impostazioni_pc/index.html</guid>
+      <description>Aggiungere app al menù delle applicazioni&#xA;Alias&#xA;Nhentai&#xA;Aprire alla rete locale&#xA;Twitch senza pubblicità&#xA;Aggiornare container Docker&#xA;Tagliare Video&#xA;Aggiungere cartella SMB a Jellyfin</description>
+    </item>
+    <item>
+      <title>Istruzioni ReVanced</title>
+      <link>http://localhost:1313/istruzioni_revanced/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/istruzioni_revanced/index.html</guid>
+      <description>Installazione app ReVanced per Youtube&#xA;Questa guida potrebbe non essere aggiornata.&#xA;In alternativa c’è questo post su reddit che dovrebbe avere informazioni più recenti.&#xA;Se dovesse sparire l’ho salvata come file HTML su Drive&#xA;This guide is for non-rooted devices but should still work fine on rooted devices&#xA;Perform all of these steps from your phone.&#xA;This guide is for YouTube, but the same principles apply to other supported apps (see here for the list of supported apps)</description>
+    </item>
+  </channel>
+</rss>

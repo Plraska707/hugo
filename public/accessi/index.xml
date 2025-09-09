@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Accessi :: Wiki Attilio</title>
+    <link>http://localhost:1313/accessi/index.html</link>
+    <description>Sambashare&#xA;Iliadbox&#xA;Jellyfin&#xA;FTP&#xA;Raspberry Pi&#xA;PostgreSQL su Docker</description>
+    <generator>Hugo</generator>
+    <language>it</language>
+    <lastBuildDate>Sat, 06 Sep 2025 10:22:34 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/accessi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sambashare</title>
+      <link>http://localhost:1313/accessi/sambashare/index.html</link>
+      <pubDate>Sat, 06 Sep 2025 10:21:20 +0200</pubDate>
+      <guid>http://localhost:1313/accessi/sambashare/index.html</guid>
+      <description>Per accedere alle cartelle condivise con sambashare:&#xA;Aprire File Explorer Collegarsi all’indirizzo: smb://192.168.1.187/ Credenziali:&#xA;Username: plraska Password: Cuor_di_mele</description>
+    </item>
+    <item>
+      <title>Iliadbox</title>
+      <link>http://localhost:1313/accessi/iliadbox/index.html</link>
+      <pubDate>Sat, 06 Sep 2025 10:21:49 +0200</pubDate>
+      <guid>http://localhost:1313/accessi/iliadbox/index.html</guid>
+      <description>Per accedere alla Iliadbox:&#xA;Aprire File Explorer Collegarsi all’indirizzo: smb://192.168.1.254/ Credenziali:&#xA;Username: plraska Password: Cuor_di_mele</description>
+    </item>
+    <item>
+      <title>Jellyfin</title>
+      <link>http://localhost:1313/accessi/jellyfin/index.html</link>
+      <pubDate>Sat, 06 Sep 2025 10:21:55 +0200</pubDate>
+      <guid>http://localhost:1313/accessi/jellyfin/index.html</guid>
+      <description>Per accedere a Jellyfin, collegarsi al server:&#xA;http://192.168.1.15:8096&#xA;Credenziali:&#xA;Username: plraska Password: Cuor_di_mele</description>
+    </item>
+    <item>
+      <title>FTP</title>
+      <link>http://localhost:1313/accessi/ftp/index.html</link>
+      <pubDate>Sat, 06 Sep 2025 10:22:05 +0200</pubDate>
+      <guid>http://localhost:1313/accessi/ftp/index.html</guid>
+      <description>Per accedere al telefono tramite ftp da terminale:&#xA;usare il comando: ftp -p 192.168.1.189 2121 inserire utente e password definiti sull’app Se si vuole usare direttamente il file manager, inserire nella barra di ricerca il percorso indicato sull’app.</description>
+    </item>
+    <item>
+      <title>Raspberry Pi</title>
+      <link>http://localhost:1313/accessi/raspberry_pi/index.html</link>
+      <pubDate>Sat, 06 Sep 2025 10:22:17 +0200</pubDate>
+      <guid>http://localhost:1313/accessi/raspberry_pi/index.html</guid>
+      <description>Per accedere al Raspberry Pi:&#xA;aprire il terminale e lanciare: ssh raspi@192.168.1.61 inserire la password: Pet_sematary oppure lanciare l’alias “raspberry” corrispondente a:&#xA;alias raspberry=&#39;ssh pi4@192.168.1.61&#39;&#xA;per il quale è stata definita una chiave ssh.</description>
+    </item>
+    <item>
+      <title>PostgreSQL su Docker</title>
+      <link>http://localhost:1313/accessi/postgres_docker/index.html</link>
+      <pubDate>Sat, 06 Sep 2025 10:22:34 +0200</pubDate>
+      <guid>http://localhost:1313/accessi/postgres_docker/index.html</guid>
+      <description>Per accedere al db PostgreSQL tramite docker,&#xA;accedere al container del db con: docker exec -it wikijs-db-1 /bin/bash accedere al db di postgresql con: psql -U wikijs -d wiki Una volta nel db si possono usare i comandi SQL per interrogarlo, ad esempio&#xA;SELECT * FROM users;&#xA;fare attenzione al ; alla fine.</description>
+    </item>
+  </channel>
+</rss>

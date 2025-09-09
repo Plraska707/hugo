@@ -1,0 +1,6 @@
+baseURL = 'https://plraska.it'
+languageCode = 'it'
+title = 'Wiki Attilio'
+theme = 'hugo-theme-relearn'
+[params]
+  themeVariant = ['relearn-light', 'relearn-dark', 'zen-light', 'zen-dark']

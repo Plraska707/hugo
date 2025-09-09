@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Impostazioni PC :: Wiki Attilio</title>
+    <link>http://localhost:1313/impostazioni_pc/index.html</link>
+    <description>Aggiungere app al menù delle applicazioni&#xA;Alias&#xA;Nhentai&#xA;Aprire alla rete locale&#xA;Twitch senza pubblicità&#xA;Aggiornare container Docker&#xA;Tagliare Video&#xA;Aggiungere cartella SMB a Jellyfin</description>
+    <generator>Hugo</generator>
+    <language>it</language>
+    <lastBuildDate>Sat, 06 Sep 2025 15:35:17 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/impostazioni_pc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aggiungere app al menù delle applicazioni</title>
+      <link>http://localhost:1313/impostazioni_pc/aggiungere_app/index.html</link>
+      <pubDate>Sat, 06 Sep 2025 15:33:36 +0200</pubDate>
+      <guid>http://localhost:1313/impostazioni_pc/aggiungere_app/index.html</guid>
+      <description>Se si vuole aggiungere un’app al menù delle applicazioni, è necessario:&#xA;Creare un file del tipo: [Desktop Entry]&#xA;Version=1.0&#xA;Type=Application&#xA;Name=Tiddly Wiki editor&#xA;Comment=Tiddly Wiki editor&#xA;Exec=/home/plraska/.local/share/TiddlyDesktop/nw&#xA;Icon=/home/plraska/.local/share/TiddlyDesktop/images/app-icon.png&#xA;Path=/home/plraska/.local/share/TiddlyDesktop&#xA;Terminal=false&#xA;StartupNotify=false&#xA;Salvarlo con estensione .desktop Spostarlo al percorso: ~/.local/share/applications/ o /usr/share/applications/</description>
+    </item>
+    <item>
+      <title>Alias</title>
+      <link>http://localhost:1313/impostazioni_pc/alias/index.html</link>
+      <pubDate>Sat, 06 Sep 2025 15:33:55 +0200</pubDate>
+      <guid>http://localhost:1313/impostazioni_pc/alias/index.html</guid>
+      <description>alias containers=‘dockerps &amp;&amp; podmanps’&#xA;alias containersa=‘dockerpsa &amp;&amp; podmanpsa’&#xA;alias dockerps=‘docker ps –format ‘&#39;’table {{.ID}}\t{{.Image}}\t{{.Status}}\t{{.Names}}’&#39;’’&#xA;alias dockerpsa=‘docker ps -a –format ‘&#39;’table {{.ID}}\t{{.Image}}\t{{.Status}}\t{{.Names}}’&#39;’’&#xA;alias douroot=‘sudo chmod -R 777 /home/plraska/Desktop/Attilio/Gatcha/doujinshi/’&#xA;alias hdd=‘sudo mount -t ntfs-3g -o remove_hiberfile /dev/sda1 /media/plraska/’&#xA;alias l=‘ls -ltrh’&#xA;alias la=‘ls -Ah’&#xA;alias ll=‘ls -lh’&#xA;alias log-out=‘gnome-session-quit’&#xA;alias ls=‘ls –color=auto’&#xA;alias myip=‘ifconfig wlo1 | grep ‘&#39;‘inet ‘&#39;’ | awk ‘&#39;’{print $2}’&#39;’’&#xA;alias nhentai=‘docker run –rm -it -v /home/plraska/Desktop/Attilio/Gatcha/doujinshi:/output -v ~/.nhentai/:/root/.nhentai nhentai’&#xA;alias podmanps=‘podman ps –format ‘&#39;’table {{.ID}}\t{{.Image}}\t{{.Status}}\t{{.Names}}’&#39;’’&#xA;alias podmanpsa=‘podman ps -a –format ‘&#39;’table {{.ID}}\t{{.Image}}\t{{.Status}}\t{{.Names}}’&#39;’’&#xA;alias puntata=‘py /home/plraska/Desktop/Programmazione/varie/script_uni/puntata_telefilm.py’&#xA;alias py=‘python3.12’&#xA;alias qBittorrent=‘docker start qbittorrent’&#xA;alias raspberry=‘ssh pi4@192.168.1.61’&#xA;alias sort=‘du -hs * | sort -h’&#xA;alias update=‘sudo apt-get update &amp;&amp; sudo apt-get upgrade -y &amp;&amp; sudo apt-get dist-upgrade -y’&#xA;alias youtube=‘ytfzf’</description>
+    </item>
+    <item>
+      <title>Nhentai</title>
+      <link>http://localhost:1313/impostazioni_pc/nhentai/index.html</link>
+      <pubDate>Sat, 06 Sep 2025 15:34:03 +0200</pubDate>
+      <guid>http://localhost:1313/impostazioni_pc/nhentai/index.html</guid>
+      <description>Se si scaricano troppi hentai si va incontro ad un problema di cookie.&#xA;Per evitarlo bisogna impostare l’user agent e i cookie, questultimo composta da&#xA;csrftoken sessionid cf_clearance. Questi tre sono identificabili tramite il Development Tool dopo aver effettuato l’accesso su nhentai.net:&#xA;Username: not_a_rifle Password: Bucatini_1 Ecco dove trovare i componenti dei cookie:&#xA;csrftoken: Settings → More Tools → Web Developer Tools → Storage → Cookie → csrftoken sessionid: Settings → More Tools → Web Developer Tools → Storage → Cookie → sessionid cf_clearance: Settings → More Tools → Web Developer Tools → Network → nhentai.net → Headers → cf_clearance useragent: cercare su google “my user agent” Questi sono quelli attualmente impostati:</description>
+    </item>
+    <item>
+      <title>Aprire alla rete locale</title>
+      <link>http://localhost:1313/impostazioni_pc/aprire_rete_locale/index.html</link>
+      <pubDate>Sat, 06 Sep 2025 15:34:12 +0200</pubDate>
+      <guid>http://localhost:1313/impostazioni_pc/aprire_rete_locale/index.html</guid>
+      <description>Per aprire una cartella alla condivisione su rete locale:&#xA;aprire con sudo il file di configurazione: sudo vim /etc/samba/smb.conf aggiungere la cartella che si vuole condividere con questa struttura: [sambashare]&#xA;comment = Samba on Ubuntu&#xA;path = /home/plraska/sambashare&#xA;read only = no&#xA;browsable = yes</description>
+    </item>
+    <item>
+      <title>Twitch senza pubblicità</title>
+      <link>http://localhost:1313/impostazioni_pc/twitch/index.html</link>
+      <pubDate>Sat, 06 Sep 2025 15:34:20 +0200</pubDate>
+      <guid>http://localhost:1313/impostazioni_pc/twitch/index.html</guid>
+      <description>Per eliminare la pubblicità da twitch, seguire questi passaggi descritti su questa pagina&#xA;Andare sull’estensione uBlock Origin Andare su Preferences Spostarsi sulla scheda My Filters e aggiungere twitch.tv##+js(twitch-videoad) Spostarsi sulla scheda Settings, attivare I am an advanced user e cliccare sull’icona dell’ingranaggio che compare. Modificare il valore di userResourcesLocation da unset all’url completo della soluzione che si vuole usare (se è già presente un url, aggiungere uno spazio dopo quello esistente).&#xA;Nel nostro caso:&#xA;userResourcesLocation https://raw.githubusercontent.com/pixeltris/TwitchAdSolutions/master/video-swap-new/video-swap-new-ublock-origin.js Attivare e Disattivare l’estensione o riavviare il browser.</description>
+    </item>
+    <item>
+      <title>Aggiornare container Docker</title>
+      <link>http://localhost:1313/impostazioni_pc/aggiornare_container/index.html</link>
+      <pubDate>Sat, 06 Sep 2025 15:34:34 +0200</pubDate>
+      <guid>http://localhost:1313/impostazioni_pc/aggiornare_container/index.html</guid>
+      <description>Quando si vuole aggiornare un container, andare nella cartella con il file docker-compose.yml del container da aggiornare e lanciare:&#xA;docker compose pull &amp;&amp; docker compose up -d</description>
+    </item>
+    <item>
+      <title>Tagliare video</title>
+      <link>http://localhost:1313/impostazioni_pc/tagliare_video/index.html</link>
+      <pubDate>Sat, 06 Sep 2025 15:34:57 +0200</pubDate>
+      <guid>http://localhost:1313/impostazioni_pc/tagliare_video/index.html</guid>
+      <description>Ci sono due metodi, uno più veloce e uno con qualità migliore:&#xA;Qualità migliore: ffmpeg -i video.mp4 -ss hh:mm:ss -to hh:mm:ss -async 1 cut.mp4&#xA;Più veloce: ffmpeg -i video.mp4 -ss hh:mm:ss -to hh:mm:ss -c:v copy -c:a copy output.mp4</description>
+    </item>
+    <item>
+      <title>Aggiungere cartella SMB a Jellyfin</title>
+      <link>http://localhost:1313/impostazioni_pc/aggiungere_smb_jellyfin/index.html</link>
+      <pubDate>Sat, 06 Sep 2025 15:35:17 +0200</pubDate>
+      <guid>http://localhost:1313/impostazioni_pc/aggiungere_smb_jellyfin/index.html</guid>
+      <description>Montare in locale la cartella SMB: sudo mkdir /mnt/nas sudo apt-get install cifs-utils sudo mount -t cifs -o user=plraska //192.168.1.254/iliadbox/Video /mnt/nas Creare file .smb nella home con le credenziali di accesso: username = plraska password = Cuor_di_mele Aggiungere queste righe al file /etc/fstab //192.168.1.254/iliadbox/Video /mnt/nas cifs uid=0,credentials=/home/plraska/.smb,iocharset=utf8,vers=3.0,noperm 0 0&#xA;Riferimenti:&#xA;Chris Tech Blog</description>
+    </item>
+  </channel>
+</rss>

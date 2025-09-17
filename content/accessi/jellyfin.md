@@ -7,8 +7,8 @@ weight = 3
 
 Per accedere a Jellyfin, collegarsi al server:
 
-[http://192.168.1.15:8096](http://192.168.1.15:8096)
+[http://192.168.1.187:8096](http://192.168.1.187:8096)
 
 Credenziali:
 - Username: `plraska`
-- Password: `Cuor_di_mele`
+- Password: `Film_gratis_1!`

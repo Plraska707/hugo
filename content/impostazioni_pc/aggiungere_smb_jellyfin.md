@@ -7,9 +7,9 @@ weight = 8
 
 1. Montare in locale la cartella SMB:
 
-- sudo mkdir /mnt/nas
-- sudo apt-get install cifs-utils
-- sudo mount -t cifs -o user=plraska //192.168.1.254/iliadbox/Video /mnt/nas
+- `sudo mkdir /mnt/nas`
+- `sudo apt-get install cifs-utils`
+- `sudo mount -t cifs -o user=plraska //192.168.1.254/iliadbox/Video /mnt/nas`
 
 2. Creare file .smb nella home con le credenziali di accesso:
 

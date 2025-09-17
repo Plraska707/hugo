@@ -17,8 +17,8 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "Wiki di Attilio \u003e Accessi",
-    "content": "Per accedere alle cartelle condivise con sambashare:\nAprire File Explorer Collegarsi all’indirizzo: smb://192.168.1.187/ Credenziali:\nUsername: plraska Password: Cuor_di_mele",
-    "description": "Per accedere alle cartelle condivise con sambashare:\nAprire File Explorer Collegarsi all’indirizzo: smb://192.168.1.187/ Credenziali:\nUsername: plraska Password: Cuor_di_mele",
+    "content": "Per ccedere alle cartelle condivise con sambashare:\nAprire File Explorer Collegarsi all’indirizzo: smb://192.168.1.187/ Credenziali:\nUsername: plraska Password: Cuor_di_mele",
+    "description": "Per ccedere alle cartelle condivise con sambashare:\nAprire File Explorer Collegarsi all’indirizzo: smb://192.168.1.187/ Credenziali:\nUsername: plraska Password: Cuor_di_mele",
     "tags": [],
     "title": "Sambashare",
     "uri": "/accessi/sambashare/index.html"
